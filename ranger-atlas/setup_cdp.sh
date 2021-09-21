@@ -15,7 +15,8 @@ export airlinedemoset="s3a://pse-airline-demo/"   ## either s3a://cldr-airline-d
 #2. Confirm that group cdp_<env name> is created and present in Ranger. Confirm above user is part of this group or he won't have admin rights
 
 
-git clone https://github.com/abajwa-hw/masterclass
+#git clone https://github.com/abajwa-hw/masterclass
+git clone -b pucl-fixes https://github.com/mwies-cldr/masterclass
 cd masterclass/ranger-atlas/HortoniaMunichSetup
 
 
