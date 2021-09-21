@@ -30,7 +30,10 @@ ${ranger_curl} -X POST -H "Content-Type: application/json" -H "Accept: applicati
    "name":"Admins",
    "description":"",
    "users":[
-
+   {
+         "name":"{user}",
+         "isAdmin":false
+      }
    ],
    "groups":[
       {
