@@ -37,10 +37,7 @@ ${ranger_curl} -X POST -H "Content-Type: application/json" -H "Accept: applicati
       }
    ],
    "groups":[
-      {
-         "name":"cdp_${env_name}",
-         "isAdmin":false
-      }
+ 
    ],
    "roles":[
 
