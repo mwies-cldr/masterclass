@@ -326,7 +326,9 @@
             "rangerlookup"
           ],
           "groups": [],
-          "roles": [],
+          "roles": [
+            "Admins"
+          ],
           "conditions": [],
           "delegateAdmin": true
         }
